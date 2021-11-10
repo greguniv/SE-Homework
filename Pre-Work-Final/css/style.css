@@ -1,16 +1,26 @@
-<!DOCTYPE html>
 <style type="text/css">
 	a{font-size: 2em; color: blue;}
-	body{font-size: 0.9em; color: navy;}
-	h1{color:  yellow; background-color: blueviolet;}
+
+	#container{display: flex; width: 100%;
+	align-text: center; justify-content: center;}
+
+	body{font-size: 0.9em; color: navy;
+		align-text:  center; justify-content: center;}
+
+	#title{color:  lightgoldenrodyellow; background-color: blueviolet;
+		}
+
 	#Caseyintro{color: darkred;}
+
 	p{color: blue}
+
 	li{color: blue}
+
 	#Caseypic{
 		float: right;
 		margin:  0 0 1em 1em;
-
 	}
+
 	form{
 		padding: 15px; 
 		background-color: hotpink; 
@@ -18,13 +28,16 @@
 		border-style: solid; 
 		font-weight: 900px;
 	}
+
 	input[type=button]{color: black; background-color: rgb(0,200,0); padding: 5px;}
+
 	#selfie{
 		float: right;
 		margin: 0 0 1em 1em;
 	}
+
 	#Caseylink{font-size: 0.8em;}
-	#selfintro{color: darkred;}
+	
+	#selfintro{color: darkred; }
 
 </style>
-</html>
